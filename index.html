@@ -14,7 +14,7 @@
 	<!-- CSS Stylesheets -->
 	<link href="assets/css/animate.css" rel="stylesheet">
 
-	<!-- Template core CSS -->
+	<!-- Core CSS -->
 	<link href="assets/css/style.css" rel="stylesheet">
 </head>
 
@@ -40,7 +40,7 @@
 				</div>
 
 				<ul class="extra-navbar nav navbar-nav navbar-right">
-					<li><a href="#home" title="Home">Home</a></li>
+					<li class="active"><a href="#home" title="Home">Home</a></li>
 					<li><a href="#about" title="About">About</a></li>
 					<li><a href="#portfolio" title="Portfolio">Portfolio</a></li>
 					<li><a href="#contact" title="Contact">Contact</a></li>
@@ -87,7 +87,7 @@
 				<div class="row multi-columns-row">
 
 					<div class="col-sm-12">
-						<h2 id="skills">I've got mad skills.</h2>
+						<h2 id="skills">I've got skills.</h2>
 						<table>
 						  <tr>
 						    <td>HTML5</td>
@@ -198,8 +198,8 @@
 					<div class="col-sm-12">
 
 						<!-- TABS -->
-						<div role="navigation" >
-							<ul class="nav nav-pills">
+						<div role="tabpanel" >
+							<ul class="nav nav-pills font-alt" role="tablist">
 								<li class="active"><a href="#personal" data-toggle="tab">Personal</a></li>
 								<li><a href="#education" data-toggle="tab">Education</a></li>
 								<li><a href="#professional" data-toggle="tab">Professional</a></li>
@@ -212,13 +212,13 @@
 									<p>While I am trained as a Web Developer, I work with an emphasis on user experience design and execution. Creating websites that are both easy to use as well as visually appealing is one of my passions that I look forward to sharing with my future employer and team. </p>
 								</div>
 								<div class="tab-pane" id="education">
-									<h2>Seattle University</h2>
+									<h3>Seattle University</h3>
 
 									<h4>April 2015 - April 2016</h4>
 
 									<p>Web Development Continuing Education Certificate</p>
 
-									<h2>Boise State University</h2>
+									<h3>Boise State University</h3>
 
 									<h4>August 2011 - May 2013</h4>
 
@@ -226,24 +226,25 @@
 
 								</div>
 								<div class="tab-pane" id="professional">
-									<h2>Oracle</h2>
+									<h3>Oracle</h3>
 
 									<h4>Event Specialist : June 2014 - April 2015</h4>
 
 									<p>Transitioned into a large corporate from local start-up to own all executive level events, produce internal communications and lead sales, business development and account management conference calls.</p>
 
-									<h2>BlueKai | Oracle</h2>
+									<h3>BlueKai | Oracle</h3>
 
 									<h4>Marketing Assistant : November 2013 - June 2014</h4>
 
 									<p>Prevailed in a fast paced start-up which demanded constant attention and evaluation to priorities and focuses. Responsible for all original hosted events as well as internal and external communications.</p>
 								</div>
 								<div class="tab-pane" id="volunteering">
-									<h2>The World is Fun</h2>
+									<h3>The World is Fun</h3>
 
 									<h4>Event Planner : November 2014 - present</h4>
 
-									<p>TWIF is not your grandparents’ charitable social club. We’re a 100% volunteer-run organization here to make volunteering a fun, social experience for Seattle people, businesses and charities. We seek to banish the ol’ bake sale stereotype and get you excited about giving back to your community by broadening the scope of volunteerism and revamping existing charitable programs. Our mission is to remind you that volunteering is not a chore – it makes the world fun!</p>
+									<p>TWIF is not your grandparents’ charitable social club. We’re a 100% volunteer-run organization here to make volunteering a fun, social experience for Seattle people, businesses and charities. We seek to banish the ol’ bake sale stereotype and get you excited about giving back to your community by broadening the scope of volunteerism and revamping existing charitable programs. Our mission is to remind you that volunteering is not a chore – it makes the world fun! <a href="http://www.theworldisfun.org/">theworldisfun.org</a></p>
+
 								</div>
 							</div>
 						</div>
@@ -343,7 +344,7 @@
 
 					<div class="col-sm-12">
 						<h2>Say Hello!</h2>
-						<p id="links"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> mallorycurtis@outlook.com</p>
+						<p id="links"><a href="mailto:mallorycurtis@outlook.com?"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> mallorycurtis@outlook.com</a></p>
 						<p id="links"><a href="https://github.com/mallorycurtis"><span class="glyphicon glyphicon-share" aria-hidden="true"></span> GitHub</a></p>
 						<p id="links"><a href="https://www.linkedin.com/in/mallorycurtis1"><span class="glyphicon glyphicon-share" aria-hidden="true"></span> LinkedIn</a></p>
 
@@ -385,6 +386,7 @@
 	<script src="assets/js/appear.js"></script>
 	<script src="assets/js/gmaps.js"></script>
 	<script src="assets/js/custom.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
 
 </body>
 </html>
