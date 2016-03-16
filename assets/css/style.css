@@ -18,7 +18,7 @@ body {
 	top: 5%;
   background-color: #265a88;
   padding: .5em;
-	color: white; 
+	color: white;
 }
 .thumbnail:hover .thumbnail-content {
   display: block;
@@ -69,8 +69,7 @@ th {
 	text-align: center;
 	padding-bottom: 50px;
 	color: dark-gray;
-	font-size: 43px;
-	font-family: sans-serif;
+	font: 400 43px/1.8 serif;
 }
 
 #links {
@@ -78,9 +77,9 @@ th {
 }
 
 h1 {
-	color: dark-gray;
-	font-family: sans-serif;
 	font-size: 43px;
+	font-style: serif; 
+	color: dark-gray;
 	margin-top: 5px;
 	margin-bottom: 5px;
 	padding-right: 15px;
@@ -89,8 +88,7 @@ h1 {
 h2 {
 	text-align: center;
 	color: dark-gray;
-	font-size: 43px;
-	font-family: sans-serif;
+	font: 400 43px/1.8 serif;
 	padding-top: 50px;
 }
 
@@ -99,6 +97,9 @@ h4, h5{
 	font-family: serif;
 }
 
+#sourcecode {
+	text-align: center;
+}
 
 .nav-pills > li {
   float: left;
